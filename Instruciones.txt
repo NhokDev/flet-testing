@@ -1,0 +1,16 @@
+
+1. Ejecutar este comando:
+
+uv run flet run src/main.py
+
+2. Probar problemas en el codigo
+
+uv run ruff check .
+
+3. Revisar formato
+
+uv run ruff format --check .
+
+4. Lanzar los tests
+uv run pytest
+
